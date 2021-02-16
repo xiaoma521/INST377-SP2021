@@ -3,7 +3,7 @@
 const carousel = document.getElementById("carousel");
 let position = 0;
 let width = 130; // image width
-let count = 4; // visible images count
+let count = 3; // visible images count
 
 function moveCarousel(event) {
   if (event.target.classList.contains("arrow_right")) {
